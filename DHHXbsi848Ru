@@ -1,8 +1,4 @@
 function GetDiscord()
-	["Main"] = "https://discord.com/api/webhooks/1029654684526460960/4NWhH6CdK9xov-xWCFN9XPLvVjcpcbe1vYnuxA7Bvo2kJCt8M6FBBGboRza8sMaBaQC7",
-	["Log"] = "https://discord.com/api/webhooks/1036470774694953030/gkbO9jR4josQBzrjw-aC2LqBQnP4ekBp_MzKkA2hOlJzGxKDf8y09TCQt2EcJQL6hnH6",
-	["Global"] = "https://discord.com/api/webhooks/1036465560764035142/bzIvxEqsXspubDFxo-MyxmaIgkYUFLAohsLjTxO2Qwb5UGddP-nKNre4prKsNnEgo0_T"
-
 	if _G.DiscordMain == nil then
 		_G.DiscordMain = "https://discord.com/api/webhooks/1029654684526460960/4NWhH6CdK9xov-xWCFN9XPLvVjcpcbe1vYnuxA7Bvo2kJCt8M6FBBGboRza8sMaBaQC7"
 		_G.DiscordGlobal = "https://discord.com/api/webhooks/1036465560764035142/bzIvxEqsXspubDFxo-MyxmaIgkYUFLAohsLjTxO2Qwb5UGddP-nKNre4prKsNnEgo0_T"
